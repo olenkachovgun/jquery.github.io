@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсова робота</title>
+    <script src='js/jquery-3.6.0.min.js'></script>
+	<script src="js/jquery-ui.min.js"></script>  <!--Підключення бібліотеки jquery-ui-->
+	<link rel="stylesheet" href="css/jquery-ui.min.css"> <!--Підключення стилів jquery-ui-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/03fa4d1995.js" crossorigin="anonymous"></script> <!--Підключення font awesome -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="logo"><img src="images/logo.jpg" alt=""></div>
+            <div id="header_content">
+                <h1>Stuff You Should Know</h1>
+                <button type=button>Follow</button>
+                <button type=button>Share</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi eos, quis nulla magni deserunt officiis error officia, laudantium, non voluptatum! Deleniti molestiae soluta omnis. Perspiciatis iste porro omnis quas?</p>
+            </div>
+        </div>
+    
+    </div>
+    <div id="main">
+        <div class="container">
+            <div id="main_right" style="display:none">
+                <div class="row">
+                    <h2>Episodes</h2>
+                    <div class="icons">
+                        <i class="fas fa-long-arrow-alt-up"></i>
+                        <i class="fas fa-long-arrow-alt-down"></i>
+                    </div>
+                </div>
+                <div class="podcast">
+                    <div class="header"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>SYSK live Andre the Giant<br>
+                        <span class="data">December 26,2019 - 67min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+                        
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    <div class="header"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>Short Stuff. The Santa Claus Association<br>
+                        <span class="data">December 25,2019 - 7min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+                        
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    <div class="header"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>The SYSK. Holiday Spectacular<br>
+                        <span class="data">December 22,2019 - 17min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+    
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    <div class="header"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>SYSK live Andre the Giant<br>
+                        <span class="data">December 26,2019 - 67min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+                        
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    <div class="header hidden" style="display:none"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>Cave Diving.Totally Nuts<br>
+                        <span class="data">December 6,2019 - 5min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+                        
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    <div class="header hidden" style="display:none"> 
+                        <i class="fas fa-play-circle"></i> 
+                        <h2>RSS. Holiday Spectacular<br>
+                        <span class="data">November 22,2019 - 15min</span></h2>
+                    </div>
+                    <div class=podcast_content>
+                        <b>Read more</b>
+                        
+                        <audio src="" controls></audio>
+                        <div>  
+                            <span><i class="fas fa-share-square"></i>Share</span>
+                            <span><i class="far fa-check-circle"></i>Mark as Played</span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <button id="button_podcast">Show More</button>
+            
+                <h2>Stuff You Should Know News <i class="fas fa-chevron-right"></i></h2>
+                <div class="slider">
+                    <ul class="">
+                        <li><img src="images/sysk4.jpg" alt=""><h3><a href="#">We're Now Part Of iHeartRadio</a></h3></li>
+                        <li><img src="images/sysk2.jpg" alt=""><h3><a href="#">About SYSK</a></h3></li>
+                        <li><img src="images/sysk3.jpg" alt=""><h3><a href="#">About Chuck</a></h3></li>
+                        <li><img src="images/sysk1.jpg" alt=""><h3><a href="#">About Chuck</a></h3></li>
+                    </ul>
+                </div>
+                <hr>
+                <h2 style="display:none">Chat About Stuff You Should Know</h2>
+                <div id="chat" style="display:none" >
+                    <div class="count-comments">
+
+                    </div>
+                    <form action="index.html">
+                        <img src="images/no-avatar.png" alt="" class="avatar">
+
+                        <textarea id="text_area"  placeholder="Add a comment...">
+                            
+                        </textarea>
+                    </form>
+
+                </div>
+            </div> 
+            <div id="main_left">
+                <h2>Follow Us On</h2>
+                <div class="icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-twitter-square"></i></a>
+                   
+                </div>
+                <hr>
+                <div id="popular_podcast">
+                    <h2> Popular Podcasts</h2> 
+                    <div class="features-grids">
+                        <div class="features-grid " id="draggable1">
+                            <img  nomer="1" price="400" class="head-moto-img" id="img_1" src="images/sysk1.jpg" />
+                            <h3><a href="#">SYSK</a></h3>
+                        </div>
+                        <div class="features-grid " id="draggable2">
+                            <img  nomer="2" price="300" class="head-moto-img" id="img_1" src="images/blog.png" />
+                            <h3><a href="#">Popular than blogs</a></h3>
+                        </div>
+                        <div class="features-grid " id="draggable3">
+                            <img  nomer="3" price="100" class="head-moto-img" id="img_1" src="images/History.webp" />
+                            <h3><a href="#">Revisionist History</a></h3>
+                        </div>
+                        <div class="features-grid " id="draggable4">
+                            <img  nomer="4" price="100" class="head-moto-img" id="img_1" src="images/sysk2.jpg" />
+                            <h3><a href="#">Revisionist History</a></h3>
+                        </div>
+                        <div class="features-grid " id="draggable5">
+                            <img  nomer="5" price="100" class="head-moto-img" id="img_1" src="images/short.png" />
+                            <h3><a href="#">Short Stuff</a></h3>
+                        </div>
+
+                        
+                    </div> 
+                    <div id="dialog" title="My favorities">
+                        <p>Added to your shopping cart !</p>
+                    </div> 
+                </div>
+                
+                <hr>
+                <div id="my_favorit">
+                    <h2>My favorities</h2> 
+                    <div class="koshik-wrapper">
+
+
+                    </div> 
+                    <div id="myclear" style="display: none;">All selected: <span id="helmetsCount"><strong>     </strong></span>. 
+						Total: <span id="helmetsSumm"><strong>    </strong></span> $.
+					</div> 
+                </div>
+
+            </div>
+        </div>
+        
+        
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="copy">&copy 2021 Olena Chovgun</div>
+            <div class="menu_footer">
+                <ol>
+                    <a href="#"><li>Help</li></a>
+                    <a href="#"><li>Privacy Police</li></a>
+                    <a href="#"><li>Teams of Use</li></a>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
